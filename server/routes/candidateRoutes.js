@@ -4,7 +4,7 @@ const {
   createCandidate,
   getAllCandidates,
   deleteCandidate
-} = require('../controllers/candidateController');
+} = require('../utils/controllers/candidateController');
 
 router.post('/', createCandidate);
 router.get('/', getAllCandidates);

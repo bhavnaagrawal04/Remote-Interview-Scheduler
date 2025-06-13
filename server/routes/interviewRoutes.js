@@ -5,7 +5,7 @@ const {
     getAllInterviews,
     updateInterview,
     deleteInterview
-} = require('../controllers/interviewController');
+} = require('../utils/controllers/interviewController');
 
 router.post('/', createInterview);
 router.get('/', getAllInterviews);

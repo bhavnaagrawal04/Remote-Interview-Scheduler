@@ -3,7 +3,7 @@ const router = express.Router();
 const {
     createInterviewer,
     getAllInterviewers
-} = require('../controllers/interviewerController');
+} = require('../utils/controllers/interviewerController');
 
 router.post('/', createInterviewer);
 router.get('/', getAllInterviewers);

@@ -1,7 +1,7 @@
-const Interview = require('../models/Interview');
-const sendEmail = require('../utils/email');
-const Candidate = require('../models/Candidate');
-const Interviewer = require('../models/Interviewer');
+const Interview = require('../../models/Interview');
+const sendEmail = require('../email');
+const Candidate = require('../../models/Candidate');
+const Interviewer = require('../../models/Interviewer');
 
 exports.createInterview = async (req, res) => {
   try {
